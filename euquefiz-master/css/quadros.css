@@ -1,0 +1,24 @@
+.linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.containerOverlay:hover .image {
+  opacity: 0.3;
+}
+
+.containerOverlay:hover .middle {
+  opacity: 1;
+}
+/*# sourceMappingURL=quadros.css.map */

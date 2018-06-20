@@ -1,13 +1,5 @@
-@font-face {
-  font-family: 'IMissYourKiss';
-  src: url("imissyourkiss.eot");
-  src: url("imissyourkiss?#iefix") format("embedded-opentype"), url("imissyourkiss.svg#Locaweb-Icons") format("svg"), url("imissyourkiss.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
-  font-family: "Roboto";
+  font-family: "roboto", "Montserrat", sans-serif;
 }
 
 html,
@@ -28,62 +20,14 @@ body header {
 
 html header .header-home,
 body header .header-home {
-  background-image: url(../img/pexels02.jpeg);
+  background: url(../img/banner-teste.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: top;
+  top: 80px;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-html header .header-home .card-img-overlay,
-body header .header-home .card-img-overlay {
-  position: static;
-}
-
-html header .header-home .headerDescricao,
-body header .header-home .headerDescricao {
-  padding: 40px;
-  width: 380px;
-  height: 305px;
-  background-color: rgba(249, 166, 49, 0.8);
-}
-
-html header .header-home .headerDescricao h1,
-body header .header-home .headerDescricao h1 {
-  font-size: xx-large;
-  font-weight: bold;
-  color: black;
-}
-
-html header .header-home .headerDescricao p,
-body header .header-home .headerDescricao p {
-  color: black;
-  font-weight: bold;
-  max-width: 400px;
-}
-
-html .contatoTxt,
-body .contatoTxt {
-  letter-spacing: 2px;
-  line-height: 30px;
-}
-
-html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
-body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
-  background-color: #13BBB3;
-}
-
-html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
-body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
-  color: #2F2D2D;
-}
-
-html .btnParafusaria,
-body .btnParafusaria {
-  color: #2F2D2D;
-  font-weight: bold;
+  opacity: 0.6;
 }
 
 html .icone,
@@ -96,7 +40,7 @@ body .icone {
 html footer,
 body footer {
   background-color: #cbc8c8;
-  font-family: "Roboto";
+  font-family: "roboto", "Montserrat", sans-serif;
   padding: 26px 0;
 }
 
@@ -188,7 +132,7 @@ body #creditosSite #copyRight p a {
   background-color: rgba(74, 123, 149, 0.9);
   width: 12%;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "roboto", "Montserrat", sans-serif;
   margin-left: 80%;
   position: fixed;
   bottom: 0px;
@@ -216,85 +160,7 @@ body {
   overflow-x: hidden;
 }
 
-html #imagemSecreta,
-body #imagemSecreta {
-  display: none;
-}
-
-html #clientesDizem,
-body #clientesDizem {
-  margin-top: 100px;
-}
-
-html #clientesDizem #containerDepoimentos,
-body #clientesDizem #containerDepoimentos {
-  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/pexelParceiros.jpeg);
-  background-size: cover;
-  background-position: center center;
-  height: 57vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-html #clientesDizem #carrosselDepoimentos #conteudoCarrossel,
-body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
-  height: 170px;
-  width: 700px;
-  background-color: rgba(249, 166, 49, 0.8);
-  padding: 5px 15px;
-}
-
-html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote,
-body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote {
-  padding-bottom: 10px;
-}
-
-html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
-body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
-  color: #FFFFFF;
-}
-
-html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer,
-body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer {
-  color: #2F2D2D;
-  font-weight: bold;
-}
-
-html #Projetos .linhaEspacada .colunaProjetos .btnParafusaria:hover,
-body #Projetos .linhaEspacada .colunaProjetos .btnParafusaria:hover {
-  background-color: #13BBB3;
-}
-
-html #Projetos #linhaBotaoCadastrar,
-body #Projetos #linhaBotaoCadastrar {
-  margin-bottom: 25px;
-}
-
-html #Projetos #linhaBotaoCadastrar .btnParafusaria:hover,
-body #Projetos #linhaBotaoCadastrar .btnParafusaria:hover {
-  background-color: #13BBB3;
-}
-
-html #nossosClientes #logosClientes,
-body #nossosClientes #logosClientes {
-  justify-content: space-evenly;
-}
-
-#linhaEspecial {
-  margin-bottom: 25px;
-}
-
-.containerAmarelo {
-  background-color: #F9A631;
-  padding: 10px 0;
-}
-
 @media (max-width: 767px) {
-  html #imagemSecreta,
-  body #imagemSecreta {
-    display: initial;
-  }
   html h2,
   body h2 {
     font-size: 1.5rem;
@@ -307,51 +173,6 @@ body #nossosClientes #logosClientes {
   html p,
   body p {
     font-size: 13px;
-  }
-  html #clientesDizem #containerDepoimentos,
-  body #clientesDizem #containerDepoimentos {
-    height: 60vh;
-  }
-  html #clientesDizem #containerDepoimentos #conteudoCarrossel,
-  body #clientesDizem #containerDepoimentos #conteudoCarrossel {
-    height: 253px;
-    width: 200px;
-  }
-  html #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote,
-  body #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote {
-    font-size: 13px;
-  }
-  html #Projetos .linhaEspacada,
-  body #Projetos .linhaEspacada {
-    margin: 20px 0;
-  }
-  html #Projetos .linhaEspacada #imagemSumir,
-  body #Projetos .linhaEspacada #imagemSumir {
-    display: none;
-  }
-  html #Projetos .colunaProjetos,
-  body #Projetos .colunaProjetos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  html #nossosClientes #logosClientes,
-  body #nossosClientes #logosClientes {
-    flex-direction: column;
-  }
-  html #nossosClientes #logosClientes img,
-  body #nossosClientes #logosClientes img {
-    margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 991px) {
-  #Projetos h2 {
-    margin-bottom: 24px;
-  }
-  #nossosClientes h2 {
-    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=festas.css.map */

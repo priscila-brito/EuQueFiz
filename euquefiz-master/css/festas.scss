@@ -3,91 +3,12 @@
 html,
 body {
   overflow-x: hidden;
-
-  #imagemSecreta {
-    display: none;
-  }
-
-  #clientesDizem {
-    margin-top: 100px;
-
-    #containerDepoimentos {
-      background-image:  linear-gradient(
-        rgba(145, 139, 139, 0.45), 
-        rgba(110, 106, 106, 0.45)
-      ), url(../img/pexelParceiros.jpeg);
-      background-size: cover;
-      background-position: center center;
-      height: 57vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    #carrosselDepoimentos {
-
-      #conteudoCarrossel {
-        height: 170px;
-        width: 700px;
-        background-color: rgba(249,166,49, 0.8);
-        padding: 5px 15px;
-        .carousel-item {
-
-          blockquote {
-            padding-bottom: 10px;
-            p {
-              color: #FFFFFF;
-            }
-            .blockquote-footer {
-              color: $cinza-escuro;
-              font-weight: bold;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  #Projetos {
-    .linhaEspacada {
-      .colunaProjetos {
-        .btnParafusaria:hover {
-          background-color: $verde;
-        }
-      }
-    }
-    #linhaBotaoCadastrar {
-      margin-bottom: 25px;
-        .btnParafusaria:hover {
-          background-color: $verde;
-        }
-    }
-  }
-
-  #nossosClientes {
-    #logosClientes {
-      justify-content: space-evenly;
-    }
-  }
-}
-
-#linhaEspecial {
-  margin-bottom: 25px;
-}
-
-.containerAmarelo {
-  background-color: #F9A631;
-  padding: 10px 0;
 }
 
 
 @media (max-width: 767px) {
   html,
   body {
-    #imagemSecreta {
-      display: initial;
-    }
-
     h2 {
       font-size: 1.5rem;
     }
@@ -98,56 +19,9 @@ body {
     p {
       font-size: 13px;
     }
-
-    #clientesDizem {
-      #containerDepoimentos {
-        height: 60vh;
-
-        #conteudoCarrossel {
-          height: 253px;
-          width: 200px;
-
-          blockquote {
-            font-size: 13px;
-          }
-        }
-      }
-    }
-
-    #Projetos {
-      .linhaEspacada {
-        margin: 20px 0;
-        #imagemSumir {
-          display: none;
-        }
-      }
-      .colunaProjetos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-      }
-    }
-    #nossosClientes {
-      #logosClientes {
-        flex-direction: column;
-        img {
-          margin-bottom: 10px;
-        }
-      }
-    }
   }
 }
 
 @media (min-width: 991px) {
-  #Projetos {
-    h2 {
-      margin-bottom: 24px;
-    }
-  }
-  #nossosClientes {
-    h2 {
-      margin-bottom: 20px;
-    }
-  }
+
 }

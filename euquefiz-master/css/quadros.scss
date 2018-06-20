@@ -1,49 +1,5 @@
 // SECTION NOSSO PRODUTOS
 
-#nossosProdutos {
-    margin-top: 110px;
-    margin-bottom: 30px;
-
-    .row {
-        .containerOverlay {
-            margin-bottom: 10px;
-            .filtroColorido {
-            filter: saturate(180%); 
-            }
-        }
-    }
-}
-
-#fazerPedido {
-    h2, p {
-        letter-spacing: 2px;
-        line-height: 20px;    
-    }
-    .linhaEspacada {
-        .logoPedido {
-            text-align: right;
-        }
-
-        .numeroContato {
-            text-align: left;
-        }
-    }
-
-    .btnFazerPedido:hover {
-        background-color: $cinza-claro;
-    }
-    .btn {
-        background-color: $verde;
-        color: $cinza-escuro;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-}
-
-.containerAmarelo {
-background-color: #F9A631;
-padding: 20px 0;
-}
 
 .linhaEspacada {
     display: flex;
@@ -61,16 +17,6 @@ padding: 20px 0;
     backface-visibility: hidden;
 }
 
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 .containerOverlay:hover .image {
     opacity: 0.3;
@@ -80,19 +26,8 @@ padding: 20px 0;
     opacity: 1;
 }
 
-.tag {
-    background-color: #F9A631;
-    color: #2F2D2D;
-    font-size: 16px;
-    padding: 16px 32px;
-}
-
 // MEDIA QUERIES
 
 @media (max-width: 720px) {
-    #fazerPedido {
-        .btn {
-            width: 80%;
-        }
-    }
+
 }
