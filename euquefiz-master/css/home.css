@@ -1,0 +1,205 @@
+* {
+  font-family: "roboto", "Montserrat", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html .navbar,
+body .navbar {
+  text-transform: uppercase;
+  background-color: #CCE4E2;
+}
+
+html header,
+body header {
+  margin-top: 80px;
+}
+
+html header .header-home,
+body header .header-home {
+  background-image: url(../img/pexels02.jpeg);
+  background-size: cover;
+  background-position: top center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html header .header-home .card-img-overlay,
+body header .header-home .card-img-overlay {
+  position: static;
+}
+
+html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+  padding: 40px;
+  width: 380px;
+  height: 305px;
+  background-color: rgba(249, 166, 49, 0.8);
+}
+
+html header .header-home .headerDescricao h1,
+body header .header-home .headerDescricao h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+}
+
+html header .header-home .headerDescricao p,
+body header .header-home .headerDescricao p {
+  color: black;
+  font-weight: bold;
+  max-width: 400px;
+}
+
+html .contatoTxt,
+body .contatoTxt {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
+body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+  background-color: #13BBB3;
+}
+
+html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
+body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+  color: #2F2D2D;
+}
+
+html .btnParafusaria,
+body .btnParafusaria {
+  color: #2F2D2D;
+  font-weight: bold;
+}
+
+html .icone,
+body .icone {
+  width: 34px;
+  height: 23px;
+  padding: 0 5px;
+}
+
+html footer,
+body footer {
+  background-color: #cbc8c8;
+  font-family: "roboto", "Montserrat", sans-serif;
+  padding: 26px 0;
+}
+
+html footer #footerMaior .linhaEspacada,
+body footer #footerMaior .linhaEspacada {
+  margin: 0;
+}
+
+html .pFooter,
+body .pFooter {
+  text-align: center;
+}
+
+html .pFooter p,
+body .pFooter p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+html .linhaEspacada,
+body .linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+html #creditosSite,
+body #creditosSite {
+  background-color: rgba(204, 228, 226, 0.699);
+  color: #2F2D2D;
+  padding: 15px 0;
+}
+
+html #creditosSite #copyRight,
+body #creditosSite #copyRight {
+  justify-content: center;
+}
+
+html #creditosSite #copyRight p,
+body #creditosSite #copyRight p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+html #creditosSite #copyRight p a,
+body #creditosSite #copyRight p a {
+  color: #7d459a;
+}
+
+@media (min-width: 300px) {
+  .fundoVerde .diferenciaisContainer {
+    margin: 0;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow {
+    margin: 0 -50px;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol {
+    padding: 0 15px;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard {
+    margin: 0;
+    padding: 0;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard .cardAmarelo {
+    margin: 0 0 30px 0;
+    padding: 0 10px 15px 10px;
+  }
+}
+
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+  body header .header-home .headerDescricao {
+    height: 227px;
+  }
+}
+
+@media (max-width: 990px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+  #colunaIcones {
+    padding-top: 1.5rem;
+  }
+}
+
+#whats_botao {
+  background-color: rgba(74, 123, 149, 0.9);
+  width: 12%;
+  text-align: center;
+  font-family: "roboto", "Montserrat", sans-serif;
+  margin-left: 80%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+
+@media (max-width: 1000px) {
+  #whats_botao {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .link_whatsapp {
+    display: none;
+  }
+}
+/*# sourceMappingURL=home.css.map */

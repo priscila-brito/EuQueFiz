@@ -1,0 +1,225 @@
+$azul-nav: #CCE4E2;
+$cinza-creditos: rgba(204, 228, 226, 0.699);
+$azul-escuro: #4A7B95;
+
+$cinza-logo: #848688;
+$verde-claro: #6CD3F0;
+$verde-escuro: #13BBB3;
+$fonte-padrao: 'Open Sans';
+$cinza-claro: #ededed;
+$cinza-escuro: #2F2D2D;
+$cinza-footer: #cbc8c8;
+$verde: #13BBB3;
+$fonte-fantasia: "i_miss_your_kissregular", "roboto", sans-serif;
+$fonte-padrao: "roboto", 'Montserrat', sans-serif;
+
+* {
+   font-family: $fonte-padrao;
+}
+
+// NAV
+html,
+body{
+    overflow-x: hidden;
+    .navbar {
+    text-transform: uppercase;
+    background-color:$azul-nav;
+    }
+
+// HEADER
+    header {
+        margin-top: 80px;
+        .header-home {
+            background-image: url(../img/pexels02.jpeg);
+            background-size: cover;
+            background-position: top center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .card-img-overlay {
+                position: static;
+            }
+            .headerDescricao {
+                padding: 40px;
+                width: 380px;
+                height: 305px;
+                background-color: rgba(249,166,49,0.8);
+                h1 {
+                    font-size: xx-large;
+                    font-weight: bold;
+                    color: black;
+                }
+                p {
+                    color: black;
+                    font-weight: bold;
+                    max-width: 400px;
+                }
+            }
+        }
+    }
+
+
+    // CONTATO
+    .contatoTxt {
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    // BOTÃO PADRÃO
+    .contatoSecao {
+        .contatoLinha {
+            .contatoCadastro {
+                .btnParafusaria:hover {
+                    background-color: $verde;
+                }
+                .btnParafusaria {
+                    color: $cinza-escuro;
+                }
+            }
+        }
+    }
+
+    .btnParafusaria {
+        color: $cinza-escuro;
+        font-weight: bold;
+        // background-color: $laranja-logo;
+    }
+
+    // FOOTER
+    .icone {
+        width: 34px;
+        height: 23px;
+        padding: 0 5px;
+    }
+
+    footer {
+        background-color: $cinza-footer;
+        font-family: $fonte-padrao;
+        padding: 26px 0;
+        #footerMaior {
+            .linhaEspacada {
+                margin: 0;
+            }
+        }
+    }
+
+    .pFooter {
+        text-align: center;
+        p {
+            font-size: 13px;
+            line-height: 17px;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+.linhaEspacada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+    #creditosSite {
+        background-color: $cinza-creditos;
+        color: $cinza-escuro;
+        padding: 15px 0;
+
+        #copyRight {
+            justify-content: center;
+
+            p {
+                margin-bottom: 0;
+                font-size: 12px;
+                a {
+                   color: #7d459a;
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width: 300px) {
+    .fundoVerde {
+        .diferenciaisContainer {
+            margin: 0;
+            .diferenciaisRow {
+                margin: 0 -50px;
+                .diferenciaisCol {
+                    padding: 0 15px;
+                    .diferenciaisCard {
+                        margin: 0;
+                        padding: 0;
+                        .cardAmarelo{
+                            margin: 0 0 30px 0;
+                            padding: 0 10px 15px 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (min-width: 320px) {
+//     html,
+//     body {
+//         header {
+//             .header-home {
+//                 .headerDescricao {
+//                     height: 227px;
+//                 }
+//             } 
+//         }  
+//     } 
+// } 
+
+@media (max-width: 508px) {
+    html,
+    body {
+        header {
+            .header-home {
+                .headerDescricao {
+                    height: 227px;
+                }
+            } 
+        }  
+    } 
+} 
+
+@media (max-width: 990px) {
+    .logo {
+        margin-bottom: 15px;
+    }
+    #colunaIcones {
+        padding-top: 1.5rem;
+    }
+}
+//Botão Flutuante para Whatsapp
+#whats_botao {
+    background-color: rgba(74, 123, 149, $alpha: 0.9);
+    width: 12%;
+    text-align: center;
+    font-family: $fonte-padrao;
+    margin-left: 80%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    z-index: 1;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 8px;
+    @media (max-width: 1000px) {
+        display: none;
+    
+    }
+
+}
+.link_whatsapp{
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
