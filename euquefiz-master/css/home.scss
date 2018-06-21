@@ -1,6 +1,8 @@
 $azul-nav: #CCE4E2;
 $cinza-creditos: rgba(204, 228, 226, 0.699);
 $azul-escuro: #4A7B95;
+$rosa-escuro:  #FF7595;
+$rosa-claro: #FFB5C8;
 
 $cinza-logo: #848688;
 $verde-claro: #6CD3F0;
@@ -26,6 +28,28 @@ body{
     background-color:$azul-nav;
     }
 
+    h1 {
+        font-family: i_miss_your_kissregular;
+        padding-top: 180px;
+        padding-left: 290px;
+        font-size: 70px;
+        text-align: center;
+        // font-family: $fonte-fantasia;
+    }
+
+    h2 {
+        font-family: i_miss_your_kissregular;
+        padding-top: 230px;
+        padding-left: 290px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p {
+        font-family: i_miss_your_kissregular;
+        text-align: justify;
+    }
+
 // HEADER
     header {
         margin-top: 80px;
@@ -39,24 +63,32 @@ body{
             background-size: cover;
             opacity: 0.6;
 
-            h1 {
-                font-size: 2.5rem;
-                padding-top: 200px;
-                padding-left: 145px;
-                text-align: center;
-            }
-
-            
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
-
         }
     }
 
 // HISTORIA
 
 // TIME CRIATIVO
+
+    .fundoAzul {
+        background-color: $azul-escuro;
+        .timeCriativoContainer {
+            card {
+                border: none;
+                background: transparent;
+
+                card-body {
+                    background-color: $rosa-claro;
+                    border-radius: 10px;
+                    margin: 30px;
+                }
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
 
 
 
