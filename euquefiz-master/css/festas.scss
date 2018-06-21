@@ -5,6 +5,13 @@ body {
   overflow-x: hidden;
 }
 
+.containerOverlay:hover .image {
+  opacity: 0.3;
+}
+
+.containerOverlay:hover .middle {
+  opacity: 1;
+}
 
 @media (max-width: 767px) {
   html,

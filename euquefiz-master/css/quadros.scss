@@ -1,3 +1,11 @@
+#headerQuemSomos {
+    .carousel-inner {
+        color: black;
+        font-family:  $fonte-fantasia;
+    }
+}
+
+
 .linhaEspacada {
     display: flex;
     align-items: center;
@@ -12,15 +20,6 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-}
-
-
-.containerOverlay:hover .image {
-    opacity: 0.3;
-}
-
-.containerOverlay:hover .middle {
-    opacity: 1;
 }
 
 // MEDIA QUERIES

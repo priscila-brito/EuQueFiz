@@ -39,7 +39,7 @@ body header .header-home {
 html header .header-home h1,
 body header .header-home h1 {
   font-family: "i_miss_your_kissregular", "roboto", sans-serif;
-  padding-top: 260px;
+  padding-top: 200px;
   padding-left: 290px;
   font-size: 70px;
   text-align: left;
@@ -47,7 +47,7 @@ body header .header-home h1 {
 html header .header-home h2,
 body header .header-home h2 {
   font-family: "roboto", "Montserrat", sans-serif;
-  padding: 180px 0;
+  padding: 140px 0;
   padding-left: 290px;
   font-size: 30px;
   text-align: left;
@@ -69,7 +69,7 @@ body .timeCriativo .timeCriativoContainer .card {
 }
 html .timeCriativo .timeCriativoContainer .card .card-body,
 body .timeCriativo .timeCriativoContainer .card .card-body {
-  background-color: #fad7df;
+  background-color: #FFB5C8;
   border-radius: 20px;
   margin: 30px;
 }
@@ -77,35 +77,15 @@ html .timeCriativo .timeCriativoContainer .card .card-body img,
 body .timeCriativo .timeCriativoContainer .card .card-body img {
   padding-top: 20px;
 }
-html .timeCriativo .timeCriativoContainer .card .card-body p,
-body .timeCriativo .timeCriativoContainer .card .card-body p {
-  color: #4A7B95;
-}
 html .timeCriativo .timeCriativoContainer .card .card-body .card-text,
 body .timeCriativo .timeCriativoContainer .card .card-body .card-text {
   padding-top: 50px;
 }
-html .timeCriativo .timeCriativoContainer .card .card-body .card-footer,
-body .timeCriativo .timeCriativoContainer .card .card-body .card-footer {
-  background-color: #fad7df;
-  border: 0;
-}
-html .timeCriativo .timeCriativoContainer .card .card-body .card-footer a,
-body .timeCriativo .timeCriativoContainer .card .card-body .card-footer a {
-  text-decoration: none;
-  color: #4A7B95;
-}
-html .timeCriativo .timeCriativoContainer .card .card-body .card-footer .botao-time,
-body .timeCriativo .timeCriativoContainer .card .card-body .card-footer .botao-time {
+html .timeCriativo .timeCriativoContainer .card .card-body .botao-time,
+body .timeCriativo .timeCriativoContainer .card .card-body .botao-time {
   border-radius: 20px;
   background-color: #FFB5C8;
   font: white;
-  padding: 18px;
-  width: 300px;
-  border: 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-style: none;
 }
 html .timeCriativo .timeCriativoContainer h2,
 body .timeCriativo .timeCriativoContainer h2 {
@@ -115,11 +95,6 @@ body .timeCriativo .timeCriativoContainer h2 {
 html .redesSociais,
 body .redesSociais {
   background-color: #fad7df;
-}
-html .redesSociais h2,
-body .redesSociais h2 {
-  text-align: center;
-  padding: 15px;
 }
 html .icone,
 body .icone {
@@ -254,7 +229,7 @@ body header .header-home {
 html header .header-home h1,
 body header .header-home h1 {
   font-family: "i_miss_your_kissregular", "roboto", sans-serif;
-  padding-top: 260px;
+  padding-top: 200px;
   padding-left: 290px;
   font-size: 70px;
   text-align: left;
@@ -262,7 +237,7 @@ body header .header-home h1 {
 html header .header-home h2,
 body header .header-home h2 {
   font-family: "roboto", "Montserrat", sans-serif;
-  padding: 180px 0;
+  padding: 140px 0;
   padding-left: 290px;
   font-size: 30px;
   text-align: left;
@@ -284,7 +259,7 @@ body .timeCriativo .timeCriativoContainer .card {
 }
 html .timeCriativo .timeCriativoContainer .card .card-body,
 body .timeCriativo .timeCriativoContainer .card .card-body {
-  background-color: #fad7df;
+  background-color: #FFB5C8;
   border-radius: 20px;
   margin: 30px;
 }
@@ -292,35 +267,15 @@ html .timeCriativo .timeCriativoContainer .card .card-body img,
 body .timeCriativo .timeCriativoContainer .card .card-body img {
   padding-top: 20px;
 }
-html .timeCriativo .timeCriativoContainer .card .card-body p,
-body .timeCriativo .timeCriativoContainer .card .card-body p {
-  color: #4A7B95;
-}
 html .timeCriativo .timeCriativoContainer .card .card-body .card-text,
 body .timeCriativo .timeCriativoContainer .card .card-body .card-text {
   padding-top: 50px;
 }
-html .timeCriativo .timeCriativoContainer .card .card-body .card-footer,
-body .timeCriativo .timeCriativoContainer .card .card-body .card-footer {
-  background-color: #fad7df;
-  border: 0;
-}
-html .timeCriativo .timeCriativoContainer .card .card-body .card-footer a,
-body .timeCriativo .timeCriativoContainer .card .card-body .card-footer a {
-  text-decoration: none;
-  color: #4A7B95;
-}
-html .timeCriativo .timeCriativoContainer .card .card-body .card-footer .botao-time,
-body .timeCriativo .timeCriativoContainer .card .card-body .card-footer .botao-time {
+html .timeCriativo .timeCriativoContainer .card .card-body .botao-time,
+body .timeCriativo .timeCriativoContainer .card .card-body .botao-time {
   border-radius: 20px;
   background-color: #FFB5C8;
   font: white;
-  padding: 18px;
-  width: 300px;
-  border: 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-style: none;
 }
 html .timeCriativo .timeCriativoContainer h2,
 body .timeCriativo .timeCriativoContainer h2 {
@@ -330,11 +285,6 @@ body .timeCriativo .timeCriativoContainer h2 {
 html .redesSociais,
 body .redesSociais {
   background-color: #fad7df;
-}
-html .redesSociais h2,
-body .redesSociais h2 {
-  text-align: center;
-  padding: 15px;
 }
 html .icone,
 body .icone {
@@ -433,14 +383,6 @@ body {
   overflow-x: hidden;
 }
 
-.containerOverlay:hover .image {
-  opacity: 0.3;
-}
-
-.containerOverlay:hover .middle {
-  opacity: 1;
-}
-
 @media (max-width: 767px) {
   html h2,
 body h2 {
@@ -456,11 +398,6 @@ body p {
     font-size: 13px;
   }
 }
-#headerQuemSomos .carousel-inner {
-  color: black;
-  font-family: "i_miss_your_kissregular", "roboto", sans-serif;
-}
-
 .linhaEspacada {
   display: flex;
   align-items: center;
@@ -475,6 +412,14 @@ body p {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.containerOverlay:hover .image {
+  opacity: 0.3;
+}
+
+.containerOverlay:hover .middle {
+  opacity: 1;
 }
 
 body #headerEncadernacao {
@@ -503,4 +448,4 @@ body .carousel-indicators li {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */
