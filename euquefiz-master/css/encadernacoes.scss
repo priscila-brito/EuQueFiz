@@ -23,6 +23,10 @@ body {
         height: 12px;
         background-color: #404040;
     }
+
+    .fundoAzul {
+        background-color: $azul-escuro;
+    }
 }
 
 @media (max-width: 991px) {

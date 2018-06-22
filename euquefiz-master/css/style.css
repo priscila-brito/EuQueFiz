@@ -15,6 +15,8 @@ html h2,
 body h2 {
   font-family: "i_miss_your_kissregular", "roboto", sans-serif;
   font-size: 45px;
+  padding: 10px 0;
+  color: #CCE4E2;
 }
 html p,
 body p {
@@ -230,6 +232,8 @@ html h2,
 body h2 {
   font-family: "i_miss_your_kissregular", "roboto", sans-serif;
   font-size: 45px;
+  padding: 10px 0;
+  color: #CCE4E2;
 }
 html p,
 body p {
@@ -433,11 +437,11 @@ body {
   overflow-x: hidden;
 }
 
-.containerOverlay:hover .image {
+.containerOverlayFestas:hover .image {
   opacity: 0.3;
 }
 
-.containerOverlay:hover .middle {
+.containerOverlayFestas:hover .middle {
   opacity: 1;
 }
 
@@ -456,25 +460,22 @@ body p {
     font-size: 13px;
   }
 }
-#headerQuemSomos .carousel-inner {
-  color: black;
-  font-family: "i_miss_your_kissregular", "roboto", sans-serif;
+body #gridQuadros .container {
+  background-color: #4A7B95;
 }
-
-.linhaEspacada {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0;
-}
-
-.image {
+body #gridQuadros .image {
   opacity: 1;
   display: block;
   width: 100%;
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+body .linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
 }
 
 body #headerEncadernacao {
@@ -495,6 +496,9 @@ body .carousel-indicators li {
   width: 12px;
   height: 12px;
   background-color: #404040;
+}
+body .fundoAzul {
+  background-color: #4A7B95;
 }
 
 @media (max-width: 991px) {

@@ -1,29 +1,32 @@
-#headerQuemSomos {
-    .carousel-inner {
-        color: black;
-        font-family:  $fonte-fantasia;
+// #headerQuemSomos {
+//     .carousel-inner {
+//         color: black;
+//         font-family:  $fonte-fantasia;
+//     }
+// }
+
+body {
+    
+    // GRID
+    #gridQuadros {
+        .container {
+            background-color: $azul-escuro;
+        }
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
     }
-}
 
-
-.linhaEspacada {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-}
-
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-// MEDIA QUERIES
-
-@media (max-width: 720px) {
-
+    // FOOTER
+    .linhaEspacada {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
 }
