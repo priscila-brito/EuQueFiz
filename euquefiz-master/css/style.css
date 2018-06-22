@@ -450,6 +450,10 @@ html,
 body {
   overflow-x: hidden;
 }
+html .row h2,
+body .row h2 {
+  color: #4A7B95;
+}
 
 .containerOverlayFestas:hover .image {
   opacity: 0.3;
@@ -476,6 +480,7 @@ body p {
 }
 body #gridQuadros .container {
   background-color: #4A7B95;
+  margin: 0;
 }
 body #gridQuadros .image {
   opacity: 1;

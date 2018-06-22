@@ -3,6 +3,11 @@
 html,
 body {
   overflow-x: hidden;
+  .row {
+    h2 {
+      color: $azul-escuro;
+    }
+  }
 }
 
 .containerOverlayFestas:hover .image {
