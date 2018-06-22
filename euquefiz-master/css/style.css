@@ -54,10 +54,16 @@ body header .header-home h2 {
   font-size: 30px;
   text-align: left;
   margin: 0;
+  color: inherit;
 }
 html .historia,
 body .historia {
   background-color: #fad7df;
+}
+html .historia h2, html .historia p,
+body .historia h2,
+body .historia p {
+  color: #4A7B95;
 }
 html .timeCriativo,
 body .timeCriativo {
@@ -122,6 +128,7 @@ html .redesSociais h2,
 body .redesSociais h2 {
   text-align: center;
   padding: 15px;
+  color: #4A7B95;
 }
 html .icone,
 body .icone {
@@ -159,7 +166,7 @@ body .linhaEspacada {
 html #creditosSite,
 body #creditosSite {
   background-color: #cbc8c8;
-  color: #2F2D2D;
+  color: #7a7c7f;
   padding: 15px 0;
 }
 html #creditosSite #copyRight,
@@ -271,10 +278,16 @@ body header .header-home h2 {
   font-size: 30px;
   text-align: left;
   margin: 0;
+  color: inherit;
 }
 html .historia,
 body .historia {
   background-color: #fad7df;
+}
+html .historia h2, html .historia p,
+body .historia h2,
+body .historia p {
+  color: #4A7B95;
 }
 html .timeCriativo,
 body .timeCriativo {
@@ -339,6 +352,7 @@ html .redesSociais h2,
 body .redesSociais h2 {
   text-align: center;
   padding: 15px;
+  color: #4A7B95;
 }
 html .icone,
 body .icone {
@@ -376,7 +390,7 @@ body .linhaEspacada {
 html #creditosSite,
 body #creditosSite {
   background-color: #cbc8c8;
-  color: #2F2D2D;
+  color: #7a7c7f;
   padding: 15px 0;
 }
 html #creditosSite #copyRight,

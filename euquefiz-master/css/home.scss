@@ -4,7 +4,7 @@ $azul-escuro: #4A7B95;
 $rosa-escuro:  #FF7595;
 $rosa-claro: #FFB5C8;
 $cinza-claro: #ededed;
-$cinza-escuro: #2F2D2D;
+$cinza-escuro: #7a7c7f;
 $rosa-fundo: rgb(250, 215, 223);
 
 $cinza-footer: rgba(204, 228, 226, 0.699);
@@ -65,6 +65,7 @@ body{
                 font-size: 30px;
                 text-align: left;
                 margin: 0;
+                color: inherit;
             }
         }
     }
@@ -73,6 +74,9 @@ body{
 
 .historia {
     background-color: $rosa-fundo;
+    h2, p {
+        color: $azul-escuro;
+    }
 }
 
 // TIME CRIATIVO
@@ -141,6 +145,7 @@ body{
         h2 {
             text-align: center;
             padding: 15px;
+            color: $azul-escuro;
         }
     }
 
