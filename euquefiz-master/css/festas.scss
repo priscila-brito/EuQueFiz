@@ -3,6 +3,16 @@
 html,
 body {
   overflow-x: hidden;
+
+  .carousel-item {
+      img {
+        height: 77vh;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+      }
+    }
+
   .row {
     h2 {
       color: $azul-escuro;

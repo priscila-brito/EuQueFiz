@@ -450,6 +450,13 @@ html,
 body {
   overflow-x: hidden;
 }
+html .carousel-item img,
+body .carousel-item img {
+  height: 77vh;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
 html .row h2,
 body .row h2 {
   color: #4A7B95;
@@ -479,7 +486,7 @@ body p {
   }
 }
 body #headerQuadros .carousel-item img {
-  height: 75vh;
+  height: 77vh;
   object-fit: cover;
   overflow: hidden;
   width: 100%;
@@ -511,7 +518,7 @@ body #headerEncadernacao #banner {
   width: 100%;
 }
 body #headerEncadernacao #banner .carousel-item img {
-  height: 75vh;
+  height: 77vh;
   object-fit: cover;
   overflow: hidden;
   width: 100%;
