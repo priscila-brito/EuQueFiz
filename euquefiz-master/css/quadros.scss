@@ -6,13 +6,27 @@
 // }
 
 body {
-    
+    #headerQuadros {
+        .carousel-item {
+            img {
+                height: 75vh;
+                object-fit: cover;
+                overflow: hidden;
+                width: 100%;
+            }
+        }
+    }
+
     // GRID
     #gridQuadros {
+        background-color: $azul-escuro;
+        margin: 0;
+
         .container {
-            background-color: $azul-escuro;
-            margin: 0;
+            // background-color: $azul-escuro;
+            // margin: 0;
         }
+        
         .image {
             opacity: 1;
             display: block;

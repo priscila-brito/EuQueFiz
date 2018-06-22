@@ -478,7 +478,13 @@ body p {
     font-size: 13px;
   }
 }
-body #gridQuadros .container {
+body #headerQuadros .carousel-item img {
+  height: 75vh;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+body #gridQuadros {
   background-color: #4A7B95;
   margin: 0;
 }
@@ -518,6 +524,10 @@ body .carousel-indicators li {
 }
 body .fundoAzul {
   background-color: #4A7B95;
+}
+body #gridEncadernacoes {
+  background-color: #4A7B95;
+  margin: 0;
 }
 
 @media (max-width: 991px) {
